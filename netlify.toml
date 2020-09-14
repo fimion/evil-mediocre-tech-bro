@@ -15,7 +15,7 @@ publish = "dist/"
 command = "npm run build"
 
 # Directory with the serverless Lambda functions to deploy to AWS.
-functions = "functions/"
+functions = "api/"
 
 [dev]
 framework="vue"
@@ -23,4 +23,4 @@ autoLaunch=false
 
 [[redirects]]
 from = "/*"
-to = "/index.html"
+to = "/"
